@@ -5,7 +5,7 @@ from flask import Flask, jsonify, request, render_template, session, redirect, u
 from flask_wtf import FlaskForm
 from wtforms import StringField, SubmitField
 from wtforms.validators import DataRequired
-from models.country import countries
+from app.models.country import countries
 from flask import make_response
 from flask_bootstrap import Bootstrap
 from flask_moment import Moment
